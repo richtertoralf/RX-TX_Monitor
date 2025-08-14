@@ -47,3 +47,9 @@ Es gibt viele fertige Monitoring-Tools – **aber keines passte exakt zu meinem 
    ```powershell
    git clone https://github.com/<DEIN_USERNAME>/nic-live-monitor.git
    cd nic-live-monitor
+
+2. **Skript starten**
+```
+powershell -ExecutionPolicy Bypass -File .\NIC_Realtime_Monitor_GUI.ps1 -STA
+
+```
