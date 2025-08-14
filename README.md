@@ -56,8 +56,8 @@ Es gibt viele fertige Monitoring-Tools – **aber keines passte exakt zu meinem 
 ## 📦 Installation
 ### Repository klonen
 ```powershell
-git clone https://github.com/<DEIN_USERNAME>/nic-live-monitor.git
-cd nic-live-monitor
+git clone https://github.com/richtertoralf/RX-TX_Monitor
+cd RX-TX_Monitor
 ```
 
 ### ▶ Starten
