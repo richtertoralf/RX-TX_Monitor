@@ -2,9 +2,11 @@
 
 ## 📌 Überblick
 **NIC Live Monitor** ist ein PowerShell-Skript mit grafischer Oberfläche (WinForms), das in Echtzeit alle aktiven Netzwerk-Interfaces (NICs) überwacht.  
-Es zeigt **Summenwerte** für RX/TX, Drops und Errors sowie eine **4er-History pro NIC** an – optimiert für **Live-Streaming-Umgebungen**.
+Es zeigt **Summenwerte** für RX/TX, Drops und Errors sowie eine **5er-History pro NIC** an – optimiert für **Live-Streaming-Umgebungen**.
 
-Entwickelt wurde das Tool speziell für **SnowgamesLive**-Events, um die Netzwerk-Performance bei NDI-, SRT- und RTMP-Streams während Sportübertragungen im Blick zu behalten.
+## 📷 Screenshot
+
+![NIC Live Monitor – Dark-Mode OBS Style](docs/screenshot_darkmode_obs.png)
 
 ---
 
@@ -42,14 +44,38 @@ Es gibt viele fertige Monitoring-Tools – **aber keines passte exakt zu meinem 
 
 ---
 
+## 📂 Dateien
+
+- `NIC_Realtime_Monitor_GUI.ps1` – Hauptskript (PowerShell 5.1, WinForms)
+- `Start_NIC_Monitor_GUI.vbs` – Startet das Skript ohne sichtbares PowerShell-Fenster
+- `README.md` – Diese Dokumentation
+
+---
+
+
 ## 📦 Installation
-1. **Repository klonen**  
+### Repository klonen
    ```powershell
    git clone https://github.com/<DEIN_USERNAME>/nic-live-monitor.git
    cd nic-live-monitor
 
-2. **Skript starten**
-```
-powershell -ExecutionPolicy Bypass -File .\NIC_Realtime_Monitor_GUI.ps1 -STA
+### ▶ Starten
 
-```
+1. Stelle sicher, dass **PowerShell 5.1** installiert ist (Standard bei Windows 10/11).
+2. Entpacke alle Dateien in einen Ordner.
+3. Starte **`Start_NIC_Monitor_GUI.vbs`** per Doppelklick.  
+   → Die GUI öffnet sich im Vordergrund, ohne dass eine PowerShell-Konsole sichtbar ist.
+
+### ⚙ Anpassungen
+
+Im Kopfbereich des Skripts (`#region Config`) lassen sich folgende Werte anpassen:
+
+- **Farben** (Dark-Mode, Textfarben, Akzentfarbe)
+- **History-Fenster** in Sekunden (Standard: 4)
+- **Polling-Intervall** für Messungen
+
+---
+## 📜 Lizenz
+
+Dieses Projekt steht unter der MIT-Lizenz.  
+Nutzen, Anpassen und Weiterverbreiten ist ausdrücklich erlaubt.
