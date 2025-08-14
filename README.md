@@ -6,8 +6,7 @@ Es zeigt dir in **Echtzeit**, was deine Netzwerk-Interfaces (NICs) gerade tun �
 Zum Beispiel bei **Live-Streaming** oder anderen Dauerübertragungen.
 
 ## 📷 So sieht’s aus
-[Screenshot 2025-08-15 010536.png](/Screenshot 2025-08-15 010536.png)
-
+![So sieht’s aus](./Screenshot%202025-08-15%20010536.png) 
 
 ---
 
