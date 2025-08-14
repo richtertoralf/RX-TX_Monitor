@@ -6,7 +6,7 @@ Es zeigt dir in **Echtzeit**, was deine Netzwerk-Interfaces (NICs) gerade tun �
 Zum Beispiel bei **Live-Streaming** oder anderen Dauerübertragungen.
 
 ## 📷 So sieht’s aus
-![Screenshot](Screenshot 2025-08-15 010536.png)
+![Screenshot]([Screenshot 2025-08-15 010536.png](https://github.com/richtertoralf/RX-TX_Monitor/blob/27bcaadd973e67d47ce00d32bd1c345266044c7d/Screenshot%202025-08-15%20010536.png))
 
 
 ---
