@@ -55,9 +55,10 @@ Es gibt viele fertige Monitoring-Tools – **aber keines passte exakt zu meinem 
 
 ## 📦 Installation
 ### Repository klonen
-   ```powershell
-   git clone https://github.com/<DEIN_USERNAME>/nic-live-monitor.git
-   cd nic-live-monitor
+```powershell
+git clone https://github.com/<DEIN_USERNAME>/nic-live-monitor.git
+cd nic-live-monitor
+```
 
 ### ▶ Starten
 
